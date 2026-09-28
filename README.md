@@ -23,4 +23,4 @@
 * **Acceso a componentes fundamentales:** Acceso directo a las propiedades del objeto a través del componente `Transform` para la gestión espacial dentro de la escena.
 * **Obtención de datos posicionales:** Recuperación en tiempo de ejecución de las coordenadas tridimensionales de la esfera mediante la propiedad `transform.position`.
 
-<img width="426" height="240" alt="Ejercicio3-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/af8f8646-0672-4e9b-bf50-c518878c4b9c" />
+<img width="1532" height="748" alt="Ejercicio3-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/af8f8646-0672-4e9b-bf50-c518878c4b9c" />
