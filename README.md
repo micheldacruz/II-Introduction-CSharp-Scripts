@@ -30,4 +30,4 @@
 * **Búsqueda dinámica de objetos mediante etiquetas (*Tags*):** Localización en tiempo de ejecución de entidades externas en la escena (`Cubo` y `Cilindro`) usando la función de la API `GameObject.FindWithTag`.
 * **Referencias cruzadas entre GameObjects:** Recuperación de los componentes `Transform` de los objetos encontrados para acceder a sus propiedades de posición espacial.
 
-<img width="1690" height="864" alt="Ejercicio4-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/56b21345-161b-4117-b5f0-81ce90b57eda" />
+<img width="1694" height="864" alt="Ejercicio4-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/46cb8344-f376-4ebd-9746-9acbbe681f6e" />
