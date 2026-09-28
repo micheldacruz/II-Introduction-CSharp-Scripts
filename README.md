@@ -24,3 +24,10 @@
 * **Obtención de datos posicionales:** Recuperación en tiempo de ejecución de las coordenadas tridimensionales de la esfera mediante la propiedad `transform.position`.
 
 <img width="1532" height="730" alt="Ejercicio3-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/0fccdff1-7c4a-4b33-be5c-5ee126092b5e" />
+
+### Ejercicio 4
+
+* **Búsqueda dinámica de objetos mediante etiquetas (*Tags*):** Localización en tiempo de ejecución de entidades externas en la escena (`Cubo` y `Cilindro`) usando la función de la API `GameObject.FindWithTag`.
+* **Referencias cruzadas entre GameObjects:** Recuperación de los componentes `Transform` de los objetos encontrados para acceder a sus propiedades de posición espacial.
+
+<img width="1690" height="864" alt="Ejercicio4-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/56b21345-161b-4117-b5f0-81ce90b57eda" />
