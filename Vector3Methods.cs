@@ -41,6 +41,9 @@ public class Vector3Methods : MonoBehaviour
             $"Distancia entre ambos vectores: {distancia}\n" +
             $"{comparacionAltura}"
         );
+
+        // Ejercicio 3
+        Debug.Log($"Posición de la esfera: {transform.position}");
     }
 
     // Update is called once per frame
