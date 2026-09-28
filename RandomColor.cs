@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Ejercicio 1
 public class RandomColor : MonoBehaviour
 {
     private Renderer miRenderer;
