@@ -45,3 +45,10 @@
 * **Lectura de ejes virtuales de movimiento:** Procesamiento de las entradas directas a través de los ejes virtuales `Horizontal` y `Vertical` de la clase `Input`.
 
 <img width="1528" height="774" alt="Ejercicio6-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/f9febc6a-f8d7-406c-a97d-641689b47b56" />
+
+### Ejercicio 7
+
+* **Configuración del Input Manager:** Reasignación y personalización de ejes virtuales de entrada a nivel de proyecto desde `Edit > Project Settings > Input Manager`.
+
+<img width="1594" height="778" alt="Ejercicio7-Introduccion-CSharp-Scripts (1)" src="https://github.com/user-attachments/assets/2e388c94-a052-461a-a019-6111b46ded27" />
+
