@@ -31,3 +31,10 @@
 * **Referencias cruzadas entre GameObjects:** Recuperación de los componentes `Transform` de los objetos encontrados para acceder a sus propiedades de posición espacial.
 
 <img width="1694" height="864" alt="Ejercicio4-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/46cb8344-f376-4ebd-9746-9acbbe681f6e" />
+
+### Ejercicio 5
+
+* **Detección de eventos de entrada (*Input*):** Captura de la interacción del usuario mediante `Input.GetAxis("Jump")` para detectar la pulsación de la barra espaciadora a través del sistema de entrada virtual de Unity.
+* **Transformación y desplazamiento posicional:** Aplicación de offsets vectoriales acumulativos sobre las coordenadas globales del objeto (`transform.position += desplazamiento`).
+
+<img width="1536" height="752" alt="Ejercicio5-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/fae649b2-064d-40d8-8fce-1c13950b8308" />
