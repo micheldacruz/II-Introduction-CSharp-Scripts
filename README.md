@@ -38,3 +38,10 @@
 * **Transformación y desplazamiento posicional:** Aplicación de offsets vectoriales acumulativos sobre las coordenadas globales del objeto (`transform.position += desplazamiento`).
 
 <img width="1536" height="752" alt="Ejercicio5-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/fae649b2-064d-40d8-8fce-1c13950b8308" />
+
+### Ejercicio 6
+
+* **Detección discreta de teclas mediante enumerados (`KeyCode`):** Captura de eventos de pulsación individual en un único fotograma utilizando `Input.GetKeyDown` junto con las constantes de dirección (`UpArrow`, `DownArrow`, `LeftArrow`, `RightArrow`).
+* **Lectura de ejes virtuales de movimiento:** Procesamiento de las entradas directas a través de los ejes virtuales `Horizontal` y `Vertical` de la clase `Input`.
+
+<img width="1528" height="774" alt="Ejercicio6-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/f9febc6a-f8d7-406c-a97d-641689b47b56" />
