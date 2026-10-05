@@ -63,3 +63,13 @@
   * Usar el **sistema mundial** (`Space.World`) mueve el objeto fijándose en las coordenadas absolutas de la escena, ignorando hacia dónde esté girado el objeto.
 
 <img width="1772" height="852" alt="Ejercicio8-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/6880119d-905f-45d1-9bf5-2a5369691b29" />
+
+### Ejercicio 9
+
+* **Independencia de esquemas de control:** Implementación de dos sistemas de entrada diferenciados en scripts independientes para permitir el control multijugador o simultáneo de dos entidades en la misma escena (WASD para la esfera y Flechas de dirección para el cubo).
+* **Captura de entrada continua en tiempo real:** Uso de `Input.GetKey` para mantener la traslación fluida y constante en cada fotograma mientras la tecla permanezca presionada por el usuario.
+* **Uso del espacio de coordenadas mundial (`Space.World`):** Aplicación explícita del parámetro `Space.World` en el método `transform.Translate` para asegurar que las direcciones del movimiento mantengan una orientación absoluta en la escena, independientemente de la rotación propia del objeto.
+* **Escalado temporal del movimiento:** Integración de la propiedad `Time.deltaTime` junto con una variable parametrizable `speed` para garantizar una velocidad uniforme independientemente del rendimiento del sistema (*frame rate*).
+
+<img width="1770" height="854" alt="Ejercicio9-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/1944ab2a-7a85-4dbb-ae36-e90b7b35c880" />
+
