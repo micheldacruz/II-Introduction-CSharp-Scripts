@@ -81,3 +81,11 @@
 * **Traslación continua e independiente del frame rate:** Integración de `transform.Translate` en el espacio global (`Space.World`) utilizando `Time.deltaTime` y la variable escalar `speed` configurada en el Inspector.
 
 <img width="1774" height="856" alt="Ejercicio11-Introduccion-CSharp-Scripts (1)" src="https://github.com/user-attachments/assets/033053e5-ad9b-464c-9687-18b0efb3a05e" />
+
+### Ejercicio 12
+
+* **Orientación dinámica con `Transform.LookAt`:** Alineación automática del eje $Z$ positivo del objeto hacia las coordenadas del objetivo (`sphereTransform`) en cada fotograma.
+* **Combinación de rotación y traslación:** Reorientación continua del marco de referencia del objeto previa al cálculo y ejecución del desplazamiento hacia la esfera.
+* **Compatibilidad de sistemas de referencia:** Mantenimiento del desplazamiento en el espacio global (`Space.World`) para garantizar que la traslación siga la trayectoria calculada sin interferencias por la nueva orientación del objeto.
+
+<img width="1770" height="850" alt="Ejercicio12-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/ff6fec24-601c-41c2-bff6-b26e4aa1ecce" />
