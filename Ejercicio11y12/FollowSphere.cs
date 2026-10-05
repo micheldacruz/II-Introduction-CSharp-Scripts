@@ -11,6 +11,7 @@ public class FollowSphere : MonoBehaviour
         // Si queremos que el cubo pueda modificar su altura
         // transform.Translate((sphereTransform.position - transform.position).normalized * speed * Time.deltaTime, Space.World);
 
+        transform.LookAt(sphereTransform); // Ejercicio12
         Vector3 miVector = new Vector3((sphereTransform.position.x - transform.position.x), 
                                         0.0f,
                                        (sphereTransform.position.z - transform.position.z));
