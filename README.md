@@ -64,7 +64,7 @@
 
 <img width="1772" height="852" alt="Ejercicio8-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/6880119d-905f-45d1-9bf5-2a5369691b29" />
 
-### Ejercicio 9
+### Ejercicio 9 y 10
 
 * **Independencia de esquemas de control:** Implementación de dos sistemas de entrada diferenciados en scripts independientes para permitir el control multijugador o simultáneo de dos entidades en la misma escena (WASD para la esfera y Flechas de dirección para el cubo).
 * **Captura de entrada continua en tiempo real:** Uso de `Input.GetKey` para mantener la traslación fluida y constante en cada fotograma mientras la tecla permanezca presionada por el usuario.
