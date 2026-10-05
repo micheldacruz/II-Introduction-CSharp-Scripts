@@ -52,3 +52,14 @@
 
 <img width="1594" height="778" alt="Ejercicio7-Introduccion-CSharp-Scripts (1)" src="https://github.com/user-attachments/assets/2e388c94-a052-461a-a019-6111b46ded27" />
 
+### Ejercicio 8
+
+* **a. Duplicar las coordenadas de la dirección (`moveDirection`):** Si no se normaliza el vector (`.normalized`), duplicar sus componentes duplica su magnitud, provocando que el cubo se mueva al doble de velocidad. Si el vector está normalizado, duplicar sus valores no altera la velocidad final, ya que la dirección mantiene su vector unitario.
+* **b. Duplicar la velocidad (`speed`):** Manteniendo la dirección constante, al duplicar la variable escalar de velocidad el objeto recorre el doble de distancia por unidad de tiempo de forma directamente proporcional.
+* **c. Velocidad menor que 1 (`speed < 1`):** El movimiento del objeto se ralentiza proporcionalmente a la fracción configurada, pero sigue conservando la traslación fluida e independiente de fotogramas al estar respaldado por `Time.deltaTime`.
+* **d. Posición inicial con $y > 0$:** La coordenada $Y$ inicial no afecta internamente a la lógica de traslación del script; sin embargo, establecer $y = 0$ inicialmente permite estandarizar el punto de partida y observar con claridad si el vector de movimiento incluye o no desplazamiento en el eje vertical.
+* **e. Movimiento local vs. mundial (`Space.Self` vs `Space.World`):** 
+  * Usar el **sistema local** (`Space.Self`, por defecto en `Translate`) mueve el objeto respecto a su propia orientación y ejes de rotación.
+  * Usar el **sistema mundial** (`Space.World`) mueve el objeto fijándose en las coordenadas absolutas de la escena, ignorando hacia dónde esté girado el objeto.
+
+<img width="1772" height="852" alt="Ejercicio8-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/6880119d-905f-45d1-9bf5-2a5369691b29" />
