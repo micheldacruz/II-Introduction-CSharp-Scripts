@@ -89,3 +89,12 @@
 * **Compatibilidad de sistemas de referencia:** Mantenimiento del desplazamiento en el espacio global (`Space.World`) para garantizar que la traslación siga la trayectoria calculada sin interferencias por la nueva orientación del objeto.
 
 <img width="1770" height="850" alt="Ejercicio12-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/ff6fec24-601c-41c2-bff6-b26e4aa1ecce" />
+
+### Ejercicio 13
+
+* **Control de orientación vectorial (*Steering Control*):** Rotación del objeto sobre su eje vertical $Y$ mediante `transform.Rotate` impulsado por el eje virtual `Horizontal`.
+* **Diferenciación entre espacio local y global:** Uso de la propiedad `transform.forward` para obtener la dirección frontal relativa a la orientación del objeto en lugar del vector absoluto `Vector3.forward`.
+* **Traslación alineada con la mirada:** Desplazamiento continuo en la dirección frontal del objeto mediante la combinación de la velocidad, la entrada del eje `Vertical` y `Time.deltaTime`.
+* **Depuración de vectores en escena:** Visualización del vector de dirección frontal en tiempo real en la ventana de edición mediante `Debug.DrawRay`.
+
+  <img width="1774" height="848" alt="Ejercicio13-Introduccion-CSharp-Scripts (1)" src="https://github.com/user-attachments/assets/3ba43c7a-d311-4667-9cc2-6425ac26791f" />
