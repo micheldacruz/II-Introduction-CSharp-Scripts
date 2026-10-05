@@ -73,3 +73,11 @@
 
 <img width="1770" height="854" alt="Ejercicio9-Introduccion-CSharp-Scripts" src="https://github.com/user-attachments/assets/1944ab2a-7a85-4dbb-ae36-e90b7b35c880" />
 
+### Ejercicio 11
+
+* **Cálculo de vectores de dirección relativos:** Obtención del vector que une el origen con el destino mediante la diferencia de posiciones $(\text{Posición}_{\text{Esfera}} - \text{Posición}_{\text{Cubo}})$.
+* **Restricción de movimiento en ejes específicos:** Aislamiento de las coordenadas del plano horizontal ($X, Z$) e inhabilitación del componente vertical ($Y = 0$) para evitar que el objeto despegue o altere su altura respecto al suelo.
+* **Normalización de vectores para velocidad constante:** Uso de la propiedad `.normalized` para convertir el vector de dirección en un vector unitario (magnitud 1), garantizando que la velocidad de persecución sea constante e independiente de la distancia entre ambos objetos.
+* **Traslación continua e independiente del frame rate:** Integración de `transform.Translate` en el espacio global (`Space.World`) utilizando `Time.deltaTime` y la variable escalar `speed` configurada en el Inspector.
+
+<img width="1774" height="856" alt="Ejercicio11-Introduccion-CSharp-Scripts (1)" src="https://github.com/user-attachments/assets/033053e5-ad9b-464c-9687-18b0efb3a05e" />
